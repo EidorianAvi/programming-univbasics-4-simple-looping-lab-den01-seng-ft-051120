@@ -64,4 +64,5 @@ def return_string_array(array)
     new_array << array[index].to_s
   index += 1 
   end
+  new_array
 end
