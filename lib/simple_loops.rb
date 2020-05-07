@@ -48,3 +48,11 @@ def loop_message_n_times(message, n)
   counter += 1 
   end 
 end 
+
+def output_array(array)
+  index = 0 
+  while index < array.length do
+    puts array[index]
+    index += 1 
+  end
+end
