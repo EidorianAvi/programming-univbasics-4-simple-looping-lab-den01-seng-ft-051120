@@ -56,3 +56,12 @@ def output_array(array)
     index += 1 
   end
 end
+
+def return_string_array(array)
+  new_array = []
+  index = 0 
+  while index < array.length do 
+    new_array << array[index].to_s
+  index += 1 
+  end
+end
